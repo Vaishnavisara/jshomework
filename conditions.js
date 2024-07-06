@@ -8,13 +8,11 @@ console.log(existingAmount)
     if (existingAmount >= productPrice) {
         // let val = document.getElementById("con")
         document.getElementById("con").innerHTML = "you can buy the product"
-        console.log(val)
 
     }
     else {
-        let val = document.getElementById("con")
-        val.innerHTML = "you can not buy the product cause amount is lesser"
-        console.log(val)
+    document.getElementById("con").innerHTML = "you can not buy the product cause amount is lesser"
+        
     }
 }
 function forloop(){
@@ -27,11 +25,16 @@ function forloop(){
 }
 function whileloop(){
     let i = 0;
+    let val3;
     while (i < 5) {
-        let val3=document.getElementById("funcall2")
+
+        val3=document.getElementById("funcall2")
         val3.innerHTML += i +"<br>"
       i++;
+      
     }
+    console.log(val3.innerHTML)
+    alert(val3.innerHTML)
 }
 function switchcase(){
     let grade = document.getElementById("enter2").value
@@ -53,7 +56,7 @@ function switchcase(){
             show.innerHTML = " fail"
             break;
         default:
-            System.out.println("Invalid grade");
+            show.innerHTML = " invalid input"
             break;
     }
 }
