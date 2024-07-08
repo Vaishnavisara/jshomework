@@ -1,0 +1,36 @@
+
+
+h1{
+    position:absolute;
+    left: 600px;
+    top: 150px;
+}
+#button1{
+position:absolute;
+    width: 70px;
+    height: 35px;
+    left: 500px;
+    top: 250px;
+    border-radius: 5px;
+
+
+
+}
+#button2{
+position:absolute;
+    width: 70px;
+    height: 35px;
+    left: 600px;
+    top: 250px;
+    border-radius: 5px;
+
+} 
+#button3{
+position:absolute;
+    width: 70px;
+    height: 35px;
+    left: 700px;
+    top: 250px;
+    border-radius: 5px;
+
+} 
